@@ -8,7 +8,7 @@ const UserSchema = new Schema({
         required: true,
         trim: true
     },
-    phoneNo: {
+    phone: {
         type: String,
         required: true,
         unique: true,
